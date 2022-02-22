@@ -10,8 +10,10 @@ public class DemoApplication {
 		
 		SpringApplication.run(DemoApplication.class, args);
 		Calculate calculate = new Calculate();
-		Integer res= calculate.add(1,3);
-				System.out.println(res);
+		Integer res = calculate.add(1, 3);
+		System.out.println(res);
+		res = calculate.sub(100, 30);
+		System.out.println(res);
 	}
 
 }
